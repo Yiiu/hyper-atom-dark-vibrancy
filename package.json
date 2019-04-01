@@ -1,0 +1,15 @@
+{
+  "name": "hyper-atom-dark-vibrancy",
+  "version": "0.0.2",
+  "description": "Hyper theme based on Atom One Dark theme",
+  "main": "index.js",
+  "repository": "https://github.com/Yiiu/hyper-atom-dark-vibrancy",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "colors",
+    "atom"
+  ],
+  "author": "Yiiu <yu.gintoki@gmail.com>",
+  "license": "MIT"
+}
