@@ -3,7 +3,7 @@
 exports.decorateConfig = config => {
   const backgroundColor = config.enableVibrancy ? 'rgba(40, 44, 52, 0.7)' : '#282c34';
   const foregroundColor = '#abb2bf'
-  const cursorColor = config.enableVibrancy ? 'transparent' : foregroundColor;
+  const cursorColor = foregroundColor;
   const borderColor = config.enableVibrancy ? 'transparent' : backgroundColor;
   const tabColor = config.enableVibrancy ? 'rgba(40, 44, 52, 0.23)' : 'rgba(0, 0, 0, 0.19)';
   const tabBorderColor = config.enableVibrancy ? 'rgba(0, 0, 0, 0.12)' : 'rgba(0, 0, 0, 0.3)';
@@ -174,7 +174,7 @@ exports.decorateConfig = config => {
         display: none;
       }
       .footer_footer {
-        transparent !important;
+        background-color: transparent !important;
       }
       .footer_footer .group_overflow {
         font-size: 14px;
